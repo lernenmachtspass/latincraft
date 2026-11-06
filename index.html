@@ -409,5 +409,7 @@ $('reset').onclick=()=>{if(confirm('Wirklich alles löschen?')){localStorage.rem
 /* ===== Start ===== */
 fetch('vocab.json').then(r=>r.json()).then(d=>{V=d;hud();show('home')}).catch(()=>{$('home').innerHTML='<div class="panel">vocab.json konnte nicht geladen werden. Bitte über GitHub Pages oder einen lokalen Server öffnen.</div>'});
 </script>
+<script data-goatcounter="https://latincraft.goatcounter.com/count"
+     async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
